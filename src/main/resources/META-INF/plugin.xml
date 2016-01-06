@@ -1,0 +1,41 @@
+<idea-plugin version="2">
+  <id>com.your.company.unique.plugin.id</id>
+  <name>Plugin display name here</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <group id="idea-jms" text="idea-jms" description="idea-jms">
+      <add-to-group group-id="MainMenu" anchor="last"/>
+      <action class="ScalaHelloAction" id="ScalaHelloAction" text="Scala Hello Action" description="Scala Hello Action" />
+      <action class="GroovyHelloAction" id="GroovyHelloAction" text="Groovy Hello Action" description="Groovy Hello Action" />
+      <action class="JavaHelloAction" id="JavaHelloAction" text="Java Hello Action" description="Java Hello Action" />
+    </group>
+
+  </actions>
+
+</idea-plugin>

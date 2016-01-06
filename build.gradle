@@ -1,0 +1,32 @@
+plugins {
+    id "org.jetbrains.intellij" version "0.0.37"
+}
+apply plugin: 'org.jetbrains.intellij'
+
+repositories{
+    mavenCentral()
+    mavenLocal()
+}
+
+apply plugin: 'groovy'
+
+
+
+dependencies{
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile "org.scala-lang:scala-library:2.10.4"
+    compile "org.scala-lang:scala-compiler:2.10.4"
+    testCompile "junit:junit:4.11"
+}
+apply plugin: 'scala'
+
+intellij {
+    version '15.0.1'
+    pluginName 'intellijms'
+
+//    publish {
+//        username jetbrainsUsername ?: ""
+//        password jetbrainsPassword ?: ""
+//        pluginId '7754'
+//    }
+}
