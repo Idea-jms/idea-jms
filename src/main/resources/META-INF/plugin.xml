@@ -1,6 +1,6 @@
 <idea-plugin version="2">
   <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <name>JMS Brokers</name>
   <version>1.0</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
@@ -19,7 +19,7 @@
   <idea-version since-build="141.0"/>
 
   <extensions defaultExtensionNs="com.intellij">
-    <toolWindow id="JMS Tool Window" anchor="right" factoryClass="ideajms.window.MainWindow"/>
+    <toolWindow id="JMS Brokers" anchor="right" factoryClass="ideajms.window.MainWindow"/>
   </extensions>
 
   <actions>
