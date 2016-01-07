@@ -19,7 +19,7 @@
     <idea-version since-build="141.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="JMS Brokers" anchor="right" factoryClass="ideajms.window.MainWindow"/>
+        <toolWindow id="JMS Brokers" anchor="right" factoryClass="ideajms.JmsToolWindowFactory"/>
     </extensions>
 
     <application-components>
