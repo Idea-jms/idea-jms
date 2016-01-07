@@ -33,10 +33,6 @@
             <add-to-group group-id="MainMenu" anchor="last"/>
             <action class="ScalaHelloAction" id="ScalaHelloAction" text="Scala Hello Action"
                     description="Scala Hello Action"/>
-            <action class="GroovyHelloAction" id="GroovyHelloAction" text="Groovy Hello Action"
-                    description="Groovy Hello Action"/>
-            <action class="JavaHelloAction" id="JavaHelloAction" text="Java Hello Action"
-                    description="Java Hello Action"/>
         </group>
 
     </actions>
