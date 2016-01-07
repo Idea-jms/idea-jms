@@ -22,19 +22,4 @@
         <toolWindow id="JMS Brokers" anchor="right" factoryClass="ideajms.JmsToolWindowFactory"/>
     </extensions>
 
-    <application-components>
-        <component>
-            <implementation-class>ideajms.model.JmsModelState</implementation-class>
-        </component>
-    </application-components>
-
-    <actions>
-        <group id="idea-jms" text="idea-jms" description="idea-jms">
-            <add-to-group group-id="MainMenu" anchor="last"/>
-            <action class="ScalaHelloAction" id="ScalaHelloAction" text="Scala Hello Action"
-                    description="Scala Hello Action"/>
-        </group>
-
-    </actions>
-
 </idea-plugin>
