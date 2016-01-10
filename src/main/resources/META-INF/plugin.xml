@@ -18,6 +18,17 @@
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="141.0"/>
 
+    <actions>
+        <group id="brokerActions">
+            <action id="addBroker" class="ideajms.action.AddBroker" icon="/general/add.png" text="Add new JMS broker"/>
+        </group>
+    </actions>
+    <application-components>
+        <component>
+            <implementation-class>ideajms.view.JmsView</implementation-class>
+        </component>
+    </application-components>
+
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="JMS Brokers" anchor="right" factoryClass="ideajms.JmsToolWindowFactory"/>
     </extensions>
