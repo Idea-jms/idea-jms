@@ -20,12 +20,12 @@
 
     <actions>
         <group id="brokerActions">
-            <action id="addBroker" class="ideajms.action.AddBroker" icon="/general/add.png" text="Add new JMS broker"/>
+            <action id="addBroker" class="ideajms.action.ShowAddBrokerDialog" icon="/general/add.png" text="Add new JMS broker"/>
         </group>
     </actions>
     <application-components>
         <component>
-            <implementation-class>ideajms.view.JmsView</implementation-class>
+            <implementation-class>ideajms.toolwindow.JmsView</implementation-class>
         </component>
     </application-components>
 
