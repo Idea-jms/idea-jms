@@ -39,12 +39,6 @@ class DividedWindow(leftPanel: JComponent, rightPanel: JComponent) extends NonOp
   }
 }
 
-class AvailableDriversPanel extends JPanel {
-  val driversList = new JBList(new DefaultListModel[Object])
-  add(createScrollPane(driversList, true))
-  setBackgroundRecursively(this, SIDE_PANEL_BACKGROUND)
-}
-
 class BrokerDetailsPanel extends JPanel {
   val brokerDetails = new JPanel()
   add(createScrollPane(brokerDetails, true))
