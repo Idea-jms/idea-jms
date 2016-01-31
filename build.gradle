@@ -38,3 +38,5 @@ scalaStyle {
     source = "src/main/scala"
     testSource = "src/test/scala"
 }
+
+test.dependsOn(scalaStyle)
